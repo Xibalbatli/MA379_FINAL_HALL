@@ -1,5 +1,5 @@
 import streamlit as st
-
+from PIL import Image
 
 st.title('About Me')
 
@@ -13,6 +13,6 @@ st.write('Hello, you may not know me, but that\'s what this greeting is for. '
          'one - is building Lego™ sets, particularly the Star Wars™ sets. My current '
          'career goal is to commission into the United States Army as an infantry '
          'officer and serve my country until it tells me to stop serving.')
+me = Image.open('./images/70939070829__5808615D-4DCA-4159-97E9-CF76E72CC13E.jpg').rotate(270)
 
-
-st.image('./images/70939070829__5808615D-4DCA-4159-97E9-CF76E72CC13E.jpg',caption='Image of Myself')
+st.image(me,caption='Image of Myself')
