@@ -8,7 +8,7 @@ st.write('I am nothing more than a checkpoint on your journey. A safe place for 
          'you. If you\'d like to know more about who I am, click the button below. No need to rush, rest here as long '
          'as you\'d like.')
 if st.button('About Me'):
-    st.switch_page('./ma379_final_hall/Pages/1_About Me.py')
+    st.switch_page('./ma379_final_hall/main/Pages/1_About Me.py')
 st.divider()
 st.subheader('What Makes You S.P.E.C.I.A.L.?')
 st.write('Have you ever wondered what makes you S.P.E.C.I.A.L.? The world can be a dangerous place for those '
@@ -17,7 +17,7 @@ st.write('Have you ever wondered what makes you S.P.E.C.I.A.L.? The world can be
          'how you can be the best you that you can be. Click the button below to find out what makes you '
          'S.P.E.C.I.A.L.')
 if st.button('S.P.E.C.I.A.L.'):
-    st.switch_page('./ma379_final_hall/Pages/2_Quiz.py')
+    st.switch_page('./ma379_final_hall/main/Pages/2_Quiz.py')
 st.subheader('Do You Want to Play a Game?')
 st.write('Might I interest you in a classic game that has not aged at all since it\'s introduction back in...the '
          'year it was created? Should you dare to test your luck, all you need to do is click the button below and '
@@ -25,4 +25,4 @@ st.write('Might I interest you in a classic game that has not aged at all since 
          'you in this non-violent game. It has just been many moons since I was last bested, my champion now '
          'rests with the stars. Do you have the courage to take her title?')
 if st.button('Challenge'):
-    st.switch_page('./ma379_final_hall/Pages/3_Hangman.py')
+    st.switch_page('./ma379_final_hall/main/Pages/3_Hangman.py')
